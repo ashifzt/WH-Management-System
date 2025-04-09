@@ -80,9 +80,10 @@
             <td class="auto-style48">&nbsp;&nbsp;&nbsp; FG Item code</td>
             <td class="auto-style49">:</td>
             <td class="auto-style50">
-                <asp:DropDownList ID="DropDownList1"  runat="server" Height="26px" Width="265px" AutoPostBack="true">
+                <asp:DropDownList ID="DropDownList1"  runat="server" Height="26px" Width="265px" AutoPostBack="true" required="true">
                     <asp:ListItem>----Select Itemcode----</asp:ListItem>
                 </asp:DropDownList>
+
             </td>
             <td class="auto-style51"></td>
             <td class="auto-style51"></td>
@@ -91,7 +92,7 @@
             <td class="auto-style52">&nbsp;&nbsp;&nbsp; SMT Line</td>
             <td class="auto-style53"></td>
             <td class="auto-style54">
-                <asp:DropDownList ID="DropDownList2"  runat="server" Height="26px" Width="265px" AutoPostBack="true" >
+                <asp:DropDownList ID="DropDownList2"  runat="server" Height="26px" Width="265px" AutoPostBack="true" required="true" >
                     <asp:ListItem>----Select SMT Line----</asp:ListItem>
                 </asp:DropDownList>
             </td>
@@ -104,7 +105,7 @@
             <td class="auto-style48">&nbsp;&nbsp;&nbsp; RM Part Code</td>
             <td class="auto-style49"></td>
             <td class="auto-style50">
-                <asp:TextBox ID="TextBox1"  runat="server" Width="302px" AutoPostBack="true"></asp:TextBox>
+                <asp:TextBox ID="TextBox1"  runat="server" Width="302px" AutoPostBack="true" required="true"></asp:TextBox>
             </td>
             <td class="auto-style51"></td>
             <td class="auto-style51"></td>
@@ -113,7 +114,7 @@
             <td class="auto-style52">&nbsp;&nbsp;&nbsp; Quantity</td>
             <td class="auto-style53"></td>
             <td class="auto-style54">
-                <asp:TextBox ID="TextBox2" Type="number"  runat="server" Width="302px" AutoPostBack="true"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" Type="number"  runat="server" Width="302px" AutoPostBack="true" required="true"></asp:TextBox>
             </td>
             <td class="auto-style55"></td>
             <td class="auto-style55"></td>
